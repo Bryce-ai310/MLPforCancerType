@@ -13,5 +13,6 @@ Multi Layer Perceptron for cancer type
 9. 再保留y label中在X中出现的样本名。
 
 ##### 思路：
-特征筛选：方差 + L1正则化 + dropout
+特征筛选：方差 + L1正则化 + dropout（这里选用这个方法）
 特征提取：PCA + dropout (其中PCA非常吃内存)
+这里没用PCA因为内存太小，并且为了可解释性高
